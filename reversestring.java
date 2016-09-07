@@ -6,7 +6,7 @@ class reversestring
    {
     Scanner sc=new Scanner(System.in);
      String s=sc.next();
-     StringBuffer sb=new StringBuffer(sb);
+     StringBuffer sb=new StringBuffer(s);
      System.out.println(sb.reverse());
     }
   }
